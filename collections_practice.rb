@@ -23,5 +23,5 @@ def reverse_array ary
 end
 
 def kesha_maker ary
-  ary.map { |x| x.chars[2] = "$" }
+  ary.map { |x| (x.chars[2] = "$").join("") }
 end
