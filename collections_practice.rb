@@ -25,3 +25,7 @@ end
 def kesha_maker ary
   ary.each{ |x| x[2] = "$"}
 end
+
+def find_a
+  
+end
