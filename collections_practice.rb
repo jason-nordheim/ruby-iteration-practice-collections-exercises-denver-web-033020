@@ -30,6 +30,6 @@ def find_a ary
   ary.select { |x| x[0] == "a" }
 end
 
-def sum_array ary 
-
+def sum_array ary
+  ary.reduce(0) { |memo, val| memo += val}
 end
