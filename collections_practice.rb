@@ -27,5 +27,9 @@ def kesha_maker ary
 end
 
 def find_a ary
-  ary.select { |x| x[0] == "a"}
+  ary.select { |x| x[0] == "a" }
+end
+
+def sum_array ary 
+
 end
