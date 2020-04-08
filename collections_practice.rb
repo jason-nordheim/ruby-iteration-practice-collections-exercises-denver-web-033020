@@ -23,6 +23,5 @@ def reverse_array ary
 end
 
 def kesha_maker ary
-  regex =
   ary.map { |x| x[2..3] = "$"}
 end
