@@ -33,3 +33,7 @@ end
 def sum_array ary
   ary.reduce(0) { |memo, val| memo += val}
 end
+
+def add_s
+  ary.each {|x| x << "s"}
+end 
