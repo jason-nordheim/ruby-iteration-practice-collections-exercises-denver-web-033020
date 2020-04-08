@@ -35,5 +35,5 @@ def sum_array ary
 end
 
 def add_s
-  ary.each {|x| x << "s"}
+  ary.each_with_index {|val, index| x << "s" if index != 2}
 end 
