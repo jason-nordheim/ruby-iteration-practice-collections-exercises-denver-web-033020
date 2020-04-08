@@ -34,6 +34,6 @@ def sum_array ary
   ary.reduce(0) { |memo, val| memo += val}
 end
 
-def add_s
+def add_s aru
   ary.each_with_index {|val, index| x << "s" if index != 1}
 end
