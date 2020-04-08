@@ -26,6 +26,6 @@ def kesha_maker ary
   ary.each{ |x| x[2] = "$"}
 end
 
-def find_a ary 
+def find_a ary
   ary.select { |x| x[0] == "a"}
 end
