@@ -36,4 +36,4 @@ end
 
 def add_s
   ary.each_with_index {|val, index| x << "s" if index != 2}
-end 
+end
